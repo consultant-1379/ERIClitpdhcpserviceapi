@@ -1,0 +1,2 @@
+#assertError create -t dhcp-service  -p /software/services/s1 -o invalid_params
+#assertError create -t dhcp-range -p /software/services/s1/subnets/ranges/r1 -o invalid_params
